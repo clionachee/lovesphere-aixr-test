@@ -1,6 +1,16 @@
 # lovesphere-aixr-test
 lovesphere ai-xr test with OpenAI, A-Frame &amp;Glitch
 
+It's my first attempt of using AI to only use HTML for the XR interactive moves.
+Pretty simple and fun.
+Use A, W, S, D to navigate and we shall see how it works.
+
+Test it out here: [https://lovesphere-aixr-test.glitch.me/thelovesphere.html](https://lovesphere-aixr-test.glitch.me/thelovesphere.html)
+
+![Uploading 2024-01-07-01-03-02.gif…]()
+
+
+_________________________________________________________________________________________________________________________________
 
 # AI for XR
 
