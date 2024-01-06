@@ -5,7 +5,9 @@ It's my first attempt of using AI to only use HTML for the XR interactive moves.
 Pretty simple and fun.
 Use A, W, S, D to navigate and we shall see how it works.
 
-Test it out here: [https://lovesphere-aixr-test.glitch.me/thelovesphere.html](https://lovesphere-aixr-test.glitch.me/thelovesphere.html)
+Play for free? Test it out here: [lovesphere-aixr-test.glitch.me/thelovesphere.html](https://lovesphere-aixr-test.glitch.me/thelovesphere.html)
+Would like to change the settings and explore for yourself? Remix here: [glitch.com/edit/#!/lovesphere-aixr-test](https://glitch.com/edit/#!/lovesphere-aixr-test)
+
 
  ![2024-01-07-01-03-02](https://github.com/clionachee/lovesphere-aixr-test/assets/94758696/26f6d51b-914a-4044-af4b-9bdb4e6e89f3)
 
