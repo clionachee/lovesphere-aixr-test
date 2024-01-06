@@ -7,8 +7,7 @@ Use A, W, S, D to navigate and we shall see how it works.
 
 Test it out here: [https://lovesphere-aixr-test.glitch.me/thelovesphere.html](https://lovesphere-aixr-test.glitch.me/thelovesphere.html)
 
-![Uploading 2024-01-07-01-03-02.gif…]()
-
+ ![2024-01-07-01-03-02](https://github.com/clionachee/lovesphere-aixr-test/assets/94758696/26f6d51b-914a-4044-af4b-9bdb4e6e89f3)
 
 _________________________________________________________________________________________________________________________________
 
