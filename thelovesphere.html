@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LoveSphere XR</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-sky color="#87CEEB"></a-sky>
+
+      <!-- Camera with default controls -->
+      <a-camera></a-camera>
+
+      <!-- Dynamic environment with rotating landscape -->
+      <a-cylinder
+        position="0 -1 -5"
+        radius="20"
+        height="1"
+        color="#40E0D0"
+        rotation="90 0 0"
+        material="emissive: #00FF00; emissiveIntensity: 1;"
+      >
+        <!-- Added emissive properties for glowing -->
+        <a-animation
+          attribute="rotation"
+          to="90 360 0"
+          dur="20000"
+          easing="linear"
+          repeat="indefinite"
+        ></a-animation>
+      </a-cylinder>
+
+      <!-- Sphere with dynamic animation -->
+      <a-sphere
+        position="0 2 -5"
+        radius="2.5"
+        color="#FFC0CB"
+        opacity="0.8"
+        material="emissive: #FF1493;"
+      >
+        <a-animation
+          attribute="scale"
+          to="1 1 1"
+          dur="3000"
+          direction="alternate"
+          easing="ease-in-out"
+          repeat="indefinite"
+        ></a-animation>
+        <a-animation
+          attribute="material.color"
+          to="#ADD8E6"
+          dur="3000"
+          direction="alternate"
+          easing="ease-in-out"
+          repeat="indefinite"
+        ></a-animation>
+
+        <!-- Spinning icosahedron -->
+        <a-icosahedron
+          position="0 1 -5"
+          radius="1"
+          color="#FFD700"
+          rotation="0 45 0"
+        >
+          <a-animation
+            attribute="rotation"
+            to="0 405 0"
+            dur="5000"
+            easing="linear"
+            repeat="indefinite"
+          ></a-animation>
+        </a-icosahedron>
+
+        <!-- Swirling galaxy particle system -->
+        <a-entity
+          particle-system="preset: galaxy; color: #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #8B00FF;"
+        ></a-entity>
+
+        <!-- Rotating tetrahedrons -->
+        <a-tetrahedron position="2 2 -5" radius="0.5" color="#4CAF50">
+          <a-animation
+            attribute="rotation"
+            to="0 360 0"
+            dur="3000"
+            easing="linear"
+            repeat="indefinite"
+          ></a-animation>
+        </a-tetrahedron>
+        <a-tetrahedron position="-2 2 -5" radius="0.5" color="#2196F3">
+          <a-animation
+            attribute="rotation"
+            to="0 360 0"
+            dur="3000"
+            easing="linear"
+            repeat="indefinite"
+          ></a-animation>
+        </a-tetrahedron>
+
+        <!-- Spinning dodecahedron -->
+        <a-dodecahedron position="0 3 -5" radius="0.8" color="#FF1493">
+          <a-animation
+            attribute="rotation"
+            to="360 360 360"
+            dur="7000"
+            easing="linear"
+            repeat="indefinite"
+          ></a-animation>
+        </a-dodecahedron>
+
+        <!-- Rotating torus knots -->
+        <a-torus-knot
+          position="2 2 -5"
+          radius="0.5"
+          radius-tubular="0.1"
+          color="#4CAF50"
+        >
+          <a-animation
+            attribute="rotation"
+            to="0 360 0"
+            dur="3000"
+            easing="linear"
+            repeat="indefinite"
+          ></a-animation>
+        </a-torus-knot>
+        <a-torus-knot
+          position="-2 2 -5"
+          radius="0.5"
+          radius-tubular="0.1"
+          color="#2196F3"
+        >
+          <a-animation
+            attribute="rotation"
+            to="0 360 0"
+            dur="3000"
+            easing="linear"
+            repeat="indefinite"
+          ></a-animation>
+        </a-torus-knot>
+
+        <!-- Text with dark color -->
+        <a-text
+          value="Sending Love to the World"
+          align="center"
+          position="0 2 -3"
+          <!--
+          Adjusted
+          position
+          near
+          the
+          pink
+          globe
+          --
+        >
+          rotation="0 45 0"
+          <!-- Added rotation for a dynamic look -->
+          color="#222"
+          <!-- Dark color for visibility -->
+          width="6" material="emissive: #00FFFF;" ></a-text
+        >
+      </a-sphere>
+
+      <!-- Instructions always visible -->
+      <a-entity
+        position="0 1.8 -4.5"
+        text="value: Use WASD keys to explore; Look around with your mouse or VR headset;"
+        ;
+        <!--
+        Added
+        instructions
+        --
+      >
+        ></a-entity
+      >
+    </a-scene>
+  </body>
+</html>
