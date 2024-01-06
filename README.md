@@ -10,7 +10,6 @@ Test it out here: [https://lovesphere-aixr-test.glitch.me/thelovesphere.html](ht
  ![2024-01-07-01-03-02](https://github.com/clionachee/lovesphere-aixr-test/assets/94758696/26f6d51b-914a-4044-af4b-9bdb4e6e89f3)
 
  
-![2024-01-07-01-03-02](https://github.com/clionachee/lovesphere-aixr-test/assets/94758696/fd8452be-4118-4bcb-b840-0392e69ecd9c)
 
 _________________________________________________________________________________________________________________________________
 
