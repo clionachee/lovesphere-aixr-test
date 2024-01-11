@@ -1,5 +1,5 @@
 # lovesphere-aixr-test
-lovesphere ai-xr test with OpenAI, A-Frame &amp;Glitch
+lovesphere ai-xr test with OpenAI, A-Frame &amp; Glitch
 
 It's my first attempt of using AI to only use HTML for the XR interactive moves.
 Pretty simple and fun.
